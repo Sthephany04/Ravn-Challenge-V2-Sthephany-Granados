@@ -1,13 +1,86 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.titleHeader{  
+  background: #121212;
+  height: 50px;  
+  color: #fff;
+  margin-bottom: 10px;
 }
+
+.titleHeader h3 {
+  height: 50px;
+  display: flex;  
+  align-items: center;
+  justify-content: center;
+  margin: 0;  
+}
+
+.peopleStarWars{
+  display: flex;
+  justify-content: space-between;
+}
+
+.namePeople{
+  padding: 5px 10px;
+}
+
+.namePeople p {
+  color: #121212;
+  font-weight: bold;
+  margin: 0;
+}
+
+.namePeople small {
+  color: #828282;
+}
+
+.iconRight {
+  font-size: 20px;
+  padding-right: 15px;
+  padding-top: 12px;
+  color: #121212;
+}
+
+.generalInformation {
+  padding: 0 5px;
+}
+
+.eyeColor,
+.hairColor,
+.skinColor,
+.birthYear {
+  display: flex;
+  justify-content: space-between;  
+}
+
+.eyeColor,
+.hairColor,
+.skinColor,
+.birthYear, p {
+  margin: 5px 0;
+  color: #828282;
+  font-weight: bold;  
+}
+
+.eyeColor,
+.hairColor,
+.skinColor,
+.birthYear, span {  
+  color: #121212;   
+}
+
+.vehiclesInformation h3 {
+  padding: 0 5px;
+}
+
+.vehiclesInformation p {
+  margin: 13px 0;
+  color: #828282;
+  font-weight: bold; 
+  padding-left: 5px; 
+}
+
+
