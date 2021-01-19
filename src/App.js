@@ -13,9 +13,9 @@ import DataCell from './components/DataCell';
 function App() {
   return (
     <ApolloProvider client={client} >      
-      <Router>
+      <Router basename = "Ravn-Challenge-V2-Sthephany-Granados">
         <Switch>
-          <Route path="/" exact>
+          <Route path= "/" exact>
             <SectionHeader titulo="People" />        
             <PersonCell />
           </Route>
