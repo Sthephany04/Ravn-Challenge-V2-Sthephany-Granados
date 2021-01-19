@@ -2,8 +2,7 @@ import React from 'react';
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link  
+  Route
 } from 'react-router-dom'
 import client from './client';
 import { ApolloProvider } from '@apollo/client';
@@ -16,12 +15,11 @@ function App() {
     <ApolloProvider client={client} >      
       <Router>
         <Switch>
-          <Route path="/persons">
+          <Route path="/" exact>
             <SectionHeader titulo="People" />        
             <PersonCell />
           </Route>
-          <Route path="/data/:id">
-            {/* <SectionHeader titulo="Holaaaaaaaaaaaaaaa" /> */}
+          <Route path="/data/:id" exact>           
             <DataCell />
           </Route>
         </Switch>

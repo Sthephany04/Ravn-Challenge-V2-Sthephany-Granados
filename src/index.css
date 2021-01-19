@@ -7,7 +7,7 @@ body {
   background: #121212;
   height: 50px;  
   color: #fff;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .titleHeader h3 {
@@ -63,6 +63,7 @@ body {
   margin: 5px 0;
   color: #828282;
   font-weight: bold;  
+  font-size: 14px;
 }
 
 .eyeColor,
@@ -72,7 +73,7 @@ body {
   color: #121212;   
 }
 
-.vehiclesInformation h3 {
+.vehiclesInformation h4 {
   padding: 0 5px;
 }
 
@@ -81,6 +82,30 @@ body {
   color: #828282;
   font-weight: bold; 
   padding-left: 5px; 
+}
+
+.headerDataCell {
+  display: flex;
+  background-color: #121212;
+  justify-content: end;
+}
+
+.iconLeft {
+  padding: 15px;
+  font-size: 20px;  
+  color: #fff;
+  cursor: pointer;
+}
+
+.loading {
+  text-align: center;
+  padding-top: 15px;
+}
+
+.errorData {
+  color: #EC5757;
+  text-align: center;
+  padding-top: 15px;
 }
 
 

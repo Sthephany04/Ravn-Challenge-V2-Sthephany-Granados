@@ -12,7 +12,7 @@ const Vehicles = ({info}) => {
   } else {
     return (
       <section className="vehiclesInformation"> 
-        <p>No tiene Vehiculos</p>
+        <p>Dont have vehicles</p>
         <hr />
       </section>
     )
